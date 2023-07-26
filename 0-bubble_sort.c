@@ -32,17 +32,13 @@ void bubble_sort(int *array, size_t size)
 				swapped = 1;
 			}
 		}
-		
-		
+
+
 		/* if no element were swapped, the array is sorted */
 		if (!swapped)
 		{
 			break;
 		}
-		sorted ++;
+		sorted++;
 	}
 }
-			
-				
-				
-
